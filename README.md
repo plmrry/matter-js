@@ -4,14 +4,15 @@ matter-js-lite is a lightweight fork of Matter.js
 
 The following modules have been removed:
 
-- Composites
-- Mouse
-- MouseConstraint
-- Plugin
-- Runner
-- Render
-- RenderPixi
-- Svg
+- `Composites`
+- `Mouse`
+- `MouseConstraint`
+- `Plugin`
+- `Runner`
+- `Render`
+- `RenderPixi`
+- `Svg`
+- `Bodies.fromVertices`
 
 <img alt="Matter.js" src="http://brm.io/matter-js/img/matter-js.svg" width="300">
 
