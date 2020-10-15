@@ -8,7 +8,6 @@ var Matter = {};
 
 module.exports = Matter;
 
-var Plugin = require('./Plugin');
 var Common = require('./Common');
 
 (function() {
@@ -53,9 +52,7 @@ var Common = require('./Common');
      * @method use
      * @param ...plugin {Function} The plugin(s) to install on `base` (multi-argument).
      */
-    Matter.use = function() {
-        Plugin.use(Matter, Array.prototype.slice.call(arguments));
-    };
+    Matter.use = function() {};
 
     /**
      * Chains a function to excute before the original function on the given `path` relative to `Matter`.

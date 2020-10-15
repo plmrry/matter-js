@@ -1,3 +1,18 @@
+# Matter.js Lite
+
+matter-js-lite is a lightweight fork of Matter.js
+
+The following modules have been removed:
+
+- Composites
+- Mouse
+- MouseConstraint
+- Plugin
+- Runner
+- Render
+- RenderPixi
+- Svg
+
 <img alt="Matter.js" src="http://brm.io/matter-js/img/matter-js.svg" width="300">
 
 > *Matter.js* is a JavaScript 2D rigid body physics engine for the web

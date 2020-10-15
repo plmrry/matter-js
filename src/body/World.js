@@ -16,7 +16,6 @@ var World = {};
 module.exports = World;
 
 var Composite = require('./Composite');
-var Constraint = require('../constraint/Constraint');
 var Common = require('../core/Common');
 
 (function() {

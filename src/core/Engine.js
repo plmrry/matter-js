@@ -15,7 +15,6 @@ module.exports = Engine;
 var World = require('../body/World');
 var Sleeping = require('./Sleeping');
 var Resolver = require('../collision/Resolver');
-var Render = require('../render/Render');
 var Pairs = require('../collision/Pairs');
 var Metrics = require('./Metrics');
 var Grid = require('../collision/Grid');

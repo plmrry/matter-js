@@ -5,9 +5,13 @@
 const stubBrowserFeatures = M => {
   const noop = () => ({ collisionFilter: {}, mouse: {} });
   M.Common._requireGlobal = name => global[name];
+  M.Render = {};
   M.Render.create = () => ({ options: {}, bounds: { min: { x: 0, y: 0 }, max: { x: 800, y: 600 }}});
   M.Render.run = M.Render.lookAt = noop;
+  M.Runner = {};
   M.Runner.create = M.Runner.run = noop;
+  M.Mouse = {};
+  M.MouseConstraint = {};
   M.MouseConstraint.create = M.Mouse.create = noop;
   M.Common.log = M.Common.info = M.Common.warn = noop;
   return M;
